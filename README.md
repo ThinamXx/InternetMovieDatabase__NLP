@@ -47,5 +47,4 @@ language_model_learner(data_lm, AWD_LSTM, drop_mult=0.3)
 **Accuracy of the Model**
 - The Model is very accurate in Text Classification.
 
-
 ![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1596720699/Ac_w6ecjd.png)
