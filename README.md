@@ -13,7 +13,6 @@ One important note for anyone who has never used Fastai API before is to go thro
 
 **Dataset**
 - Fastai has its own [Dataset](https://docs.fast.ai/datasets.html).I have used [Fastai IMDB_SAMPLE](https://course.fast.ai/datasets) using the following lines of codes:
-
 ```javascript
 untar_data(URLs.IMDB_SAMPLE)
 ```
