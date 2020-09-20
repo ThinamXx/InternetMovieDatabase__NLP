@@ -47,5 +47,12 @@ dls_clas = DataBlock(
 ).dataloaders(path, path=path, bs=128, seq_len=72)
 ```
 
+**Text Generation**
+- I will use the Model to generate the random reviews. Since, it is trained to guess the next word of the sentence, I can use the Model to write the new reviews.
+
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1600600320/New_npujuo.png)
+
 **Model Evaluation**
-- I have prepared a Text Classifier Model using Fastai API which has the accuracy of 94%. The Final Model can classify the Sentiment of the Internet Movie Database reviews (IMDB) which mean it can classify the Positive or Negative Sentiment of the reviews.
+- I have prepared a Text Classifier Model using Fastai API which has the accuracy of 94%. The Final Model can classify the Sentiment of the Internet Movie Database reviews (IMDB): which mean it can classify the Positive or Negative Sentiment of the reviews with 94% accuracy.
+
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1600600431/New1_koffpc.png)
